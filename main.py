@@ -2,8 +2,8 @@ import argparse
 import csv
 import statistics
 
-def load(filename):
-    with open(filename, 'r') as file:
+def load('data.csv'):
+    with open('data.csv', 'r') as file:
         csv_reader = csv.reader(file)
         header = next(csv_reader)
         data = [row for row in csv_reader]
