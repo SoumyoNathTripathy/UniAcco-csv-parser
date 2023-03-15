@@ -3,4 +3,5 @@ In this implementation, we use the argparse module to handle command-line argume
 
 We also added support for additional commands, such as sort and std-dev. The sort function sorts the data by a specified numeric column. The std_dev function calculates the standard deviation of a specified numeric column.
 
-We can run the tool by specifying the CSV file to process and any desired commands as arguments. For example, to count the number of rows in a file named "data.csv", we would run: python csv_tool.py data.csv --count
+We can run the tool by specifying the CSV file to process and any desired commands as arguments. For example, to count the number of rows in a file named "data.csv", we would run: 
+### python main.py data.csv --count
